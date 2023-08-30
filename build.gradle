@@ -5,6 +5,7 @@ plugins {
 }
 
 group = 'com.example'
+// 1. 버전 직접 변경
 version = '0.0.1-SNAPSHOT'
 
 java {
@@ -35,4 +36,8 @@ dependencies {
 
 tasks.named('test') {
 	useJUnitPlatform()
+}
+// 2. pain 파일 생성하지 않는 설정
+jar {
+	enabled = false
 }

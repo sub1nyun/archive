@@ -1,1 +1,2 @@
 rootProject.name = 'archive'
+// ▲ 해당 프로젝트 jar로 빌드 시 정해지는 이름

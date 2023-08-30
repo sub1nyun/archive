@@ -61,7 +61,7 @@ class Number {
     제 3자가 둘의 우선순위를 비교하는 기능이 필요할까? 첫번째로는 정렬 대상 클래스의 코드를 수정할 수 없을 경우,
     두번째로는 정렬 대상 클래스에 이미 정의된 compareTo 와 다른 기준으로 정렬하고 싶을 경우, 세번째로 여러 정렬 기준을 적용하고 싶을 경우 사용한다.
      */
-    
+
     /* 내림차순 예시
     class DescendingNumberComparator implements Comparator<Number> {
     @Override
